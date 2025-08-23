@@ -67,12 +67,12 @@ After a comprehensive tuning and evaluation process, the models performed as fol
 
 | Model | Test Accuracy | F1-Score (Class 1) | Recall (Class 1) |
 | :--- | :---: | :---: | :---: |
-| Logistic Regression | *[Enter Score]* | *[Enter Score]* | *[Enter Score]* |
-| RandomForest | 86.7% | 0.87 | 0.82 |
-| XGBoost | *[Enter Score]* | *[Enter Score]* | *[Enter Score]* |
-| SVC | *[Enter Score]* | *[Enter Score]* | *[Enter Score]* |
+| <!--Logistic Regression | *[Enter Score]* | *[Enter Score]* | *[Enter Score]* |-->
+| RandomForest | 87.33% | 0.87 | 0.85 |
+| XGBoost | 85.33% | 0.84 | 0.80 |
+| SVC | 84.67% | 0.84 | 0.81 |
 
-**Final Model:** The best performing model, **[Your Best Model Name]**, was saved to the `/models` directory.
+**Final Model:** The best performing model, **Random Forest Classifier**, was saved to the `/models` directory along with all other models that were trained.
 
 ---
 
@@ -82,7 +82,7 @@ To replicate this project on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/heart-failure-prediction.git](https://github.com/your-username/heart-failure-prediction.git)
+    git clone [https://github.com/Karthik-005/Heart-Failure-Prediction.git](https://github.com/Karthik-005/Heart-Failure-Prediction.git)
     cd heart-failure-prediction
     ```
 
@@ -100,7 +100,7 @@ To replicate this project on your local machine, follow these steps:
 4.  **Run the Jupyter Notebooks:**
     Launch Jupyter Lab or Jupyter Notebook and navigate through the notebooks in the `notebooks/` directory.
     ```bash
-    jupyter lab
+    jupyter notebook
     ```
 
 ---
