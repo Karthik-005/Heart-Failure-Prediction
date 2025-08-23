@@ -23,8 +23,9 @@ heart-failure-prediction/
 │   └── 02_modeling_and_evaluation.ipynb  # Preprocessing, model training, and evaluation
 │
 ├── models/
-│   └── final_model.pkl        # The saved, best-performing model pipeline
-│
+│   ├── random_forest.pkl
+│   └── xgb.pkl
+|
 ├── requirements.txt           # A list of all necessary Python libraries
 │
 └── README.md                  # This project overview file
